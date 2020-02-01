@@ -1,0 +1,18 @@
+% % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% %  指派问题
+% %  已知
+% % % x(inction)为整数
+% % % A * X <= b
+% % % Aeq * x = beq
+% % % lb <= x <= ub
+% % 求
+% % % min f'x
+
+function [x,y]=Appointlinar(f,intcon,A,b,Aeq,beq,lb,ub)
+A=zeros(2*size(f,1),size(f,1).^2);
+for i=1:size(f,1)
+f=f(:);
+intcon=1:size(f,1);
+
+end
