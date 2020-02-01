@@ -20,5 +20,6 @@ f=f(:);
 intcon=1:n;
 beq=ones(2*n,1);lb=zeros(n*n,1);ub=ones(n*n,1);
 [x,y]=intlinprog(f,intcon,A,b,Aeq,beq,lb,ub);
-x=reshape(x,[n.n]);
+a=[n,n]
+x=reshape(x,a);
 end
