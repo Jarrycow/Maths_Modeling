@@ -2,7 +2,7 @@
 % % x(i) = 0 »ò 1
 % % ½â
 % % lb[i] = 0  x(i)>0 lb=zeros(m,1)
-% % ub[i]=1           ub=[Inf,Inf,...,1]
+% % ub[i]=1           ub=[Inf,Inf,...,
 % % % % % % % % % % 
 function [x,y]=linar01(f,A,b,Aeq,beq,lb,ub,i)
 f=f';
