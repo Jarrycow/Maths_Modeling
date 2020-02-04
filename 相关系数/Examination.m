@@ -1,4 +1,4 @@
-function RESULT=Examination(Test)
+function [RESULT,R]=Examination(Test)
 MIN = min(Test);  % 每一列的最小值
 MAX = max(Test);   % 每一列的最大值
 MEAN = mean(Test);  % 每一列的均值
